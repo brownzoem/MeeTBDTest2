@@ -16,7 +16,7 @@ import { ActivityIndicator, View, ScrollView, SafeAreaView, StatusBar } from "re
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, images, SIZES } from '../../constants';
-
+WebBrowser.maybeCompleteAuthSession();
 const LoginScreen = () => {
     const [userInfo, setUserInfo] = React.useState();
     const [loading, setLoading] = React.useState(false);
