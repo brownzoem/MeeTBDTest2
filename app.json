@@ -4,10 +4,25 @@
     "web": {
       "bundler": "metro"
     },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brownzoem.MeetTBDTest2"
+    },
+    "android": {
+      "package": "com.brownzoem.MeetTBDTest2"
+    },
     "plugins": [
       "expo-router"
     ],
-    "name": "MeetTBDTest2",
-    "slug": "MeetTBDTest2"
+    "name": "MeeTBD",
+    "slug": "MeeTBD",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b2c890e1-2610-46ee-bc56-ff0f9cbec565"
+      }
+    }
   }
 }
